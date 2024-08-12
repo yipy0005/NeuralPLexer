@@ -26,7 +26,10 @@ For a Linux environment, run the following commands to install the package:
 .. code-block:: bash
 
     make environment
-    make install
+    conda activate neuralplexer_dev
+    pip install -r requirements.txt
+    cd openfold
+    python setup.py install
 
 
 Model inference for new protein-ligand pairs
