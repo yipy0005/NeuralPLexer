@@ -27,7 +27,7 @@ For a Linux environment, run the following commands to install the package:
 
     make environment
     conda activate neuralplexer_dev
-    pip install -r requirements.txt
+    sh pip_install.sh
     cd openfold
     python setup.py install
 
