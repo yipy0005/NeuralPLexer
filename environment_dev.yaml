@@ -9,8 +9,6 @@ channels:
 dependencies:
   - python >=3.8
   - pip
-  - pytorch >=1.10.0
-  - pytorch-cuda
   - biopython
   - prody
   - deprecated
@@ -26,7 +24,6 @@ dependencies:
   - numpy
   - openbabel
   - pandas
-  - pytorch3d
   - rdkit
   - rmsd
   - tmalign
@@ -36,6 +33,4 @@ dependencies:
   - python-lmdb
   - vim
   - wandb
-  - pip:
-    - -r requirements.txt
 
