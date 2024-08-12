@@ -84,7 +84,7 @@ dist: clean ## builds source and wheel package
 	ls -l dist
 
 environment:
-	conda env create -f environment_dev.yaml --force
+	conda env create -f environment_dev.yaml
 
 install: clean ## install the package to the active Python's site-packages
 	pip install -e .
