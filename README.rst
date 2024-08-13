@@ -25,6 +25,9 @@ For a Linux environment, run the following commands to install the package:
 
 .. code-block:: bash
 
+    git clone git@github.com:yipy0005/NeuralPLexer.git
+    cd NeuralPLexer
+    wget https://zenodo.org/records/10373581/files/neuralplexermodels_downstream_datasets_predictions.zip?download=1
     make environment
     conda activate neuralplexer_dev
     ml ATK/2.38.0-GCCcore-11.3.0
