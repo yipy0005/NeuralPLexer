@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Clone the NeuralPLexer repository from GitHub
-git clone git@github.com:yipy0005/NeuralPLexer.git
-
-# Change directory to the cloned repository
-cd NeuralPLexer
-
 # Download the required models and datasets
 wget -O neuralplexermodels_downstream_datasets_predictions.zip https://zenodo.org/records/10373581/files/neuralplexermodels_downstream_datasets_predictions.zip?download=1
 
