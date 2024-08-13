@@ -27,9 +27,12 @@ For a Linux environment, run the following commands to install the package:
 
     make environment
     conda activate neuralplexer_dev
+    ml ATK/2.38.0-GCCcore-11.3.0
     sh pip_install.sh
     cd openfold
     python setup.py install
+    cd ..
+    pip install -e .
 
 
 Model inference for new protein-ligand pairs
